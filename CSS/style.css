@@ -1,0 +1,113 @@
+body {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 30px;
+  font-family: cambria;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.colour-text {
+  color: #ef6262;
+}
+header {
+  background-color: #ff6666;
+  color: bisque;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+  font-size: 25px;
+  font-family: Gill Sans;
+}
+
+/* Style untuk teks di bawah gambar rumus luas segitiga*/
+.custom-text {
+  font-size: 20px;
+  text-align: justify;
+  margin: 5px;
+  margin-left: 100px;
+}
+
+/* Style untuk teks penjelasan rumus luas*/
+.custom-text1 {
+  font-size: 20px;
+  text-align: justify;
+  margin: 5px;
+  margin-left: 100px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  margin-left: 12px;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Cambria;
+}
+
+input {
+  width: 30%;
+  padding: 8px;
+  border: 2px solid #ff9eaa;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #a76f6f;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Cambria;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #fcaeae;
+}
+
+button:hover {
+  background-color: #ff8989;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+.text-align {
+  text-align: center;
+  border-top: 3px solid #ff6666;
+}
+
+main {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}

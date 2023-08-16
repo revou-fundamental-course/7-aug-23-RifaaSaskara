@@ -1,9 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>TRIANGLE CALCULATOR</title>
   </head>
+
   <body>
-    <h1>Hello Rifaa</h1>
+    <h1 class="colour-text">Welcome To Triangle Calculator</h1>
+    <p>
+      Hai teman-teman, ayo mulai berhitung bersamaku.<br />
+      Kamu bisa menggunakan kedua perhitungannya atau memilih salah satunya.
+    </p>
+
+    <header>KALKULATOR LUAS DAN KELILING SEGITIGA</header>
+    <br /><br />
+    <div><img src="assets/segitiga.jpg" /><br /></div>
+
+    <p class="custom-text">Rumus Luas Segitiga Yaitu :</p>
+    <p class="custom-text"><b>L = 1/2 x a x t</b></p>
+    <br />
+    <p class="custom-text">Rumus Keliling Segitiga Yaitu :</p>
+    <p class="custom-text"><b>K = S1 + S2 + S3</b></p>
+    <br />
+
+    <p class="custom-text1">Di mana :</p>
+    <p class="custom-text1">L = Luas</p>
+    <p class="custom-text1">a = Panjang alas</p>
+    <p class="custom-text1">t = Tinggi</p>
+    <p class="custom-text1">K = Keliling</p>
+    <p class="custom-text1">S1 = Sisi A</p>
+    <p class="custom-text1">S2 = Sisi C</p>
+    <p class="custom-text1">S3 = Sisi B</p>
+
+    <p class="text-align">Hitung Luas Segitiga</p>
+
+    <main>
+      <section class="input-section">
+        <label for="alas-input">Alas Segitiga</label>
+        <input type="number" id="alas-input" aria-placeholder="0" />
+        <label for="tinggi-input">Tinggi Segitiga</label>
+        <input type="number" id="tinggi-input" aria-placeholder="0" />
+      </section>
+
+      <section>
+        <button onclick="peringatan()">Hitung</button>
+        <button onclick="reset()">Reset</button>
+      </section>
+      <h4>Hasil Luas: <span id="hasil-luas">0</span></h4>
+    </main>
+
+    <p class="text-align">Hitung Keliling Segitiga</p>
+
+    <main>
+      <section class="input-section">
+        <label for="sisi-input1">Sisi 1</label>
+        <input type="number" id="sisi-input1" aria-placeholder="0" />
+        <label for="sisi-input2">Sisi 2</label>
+        <input type="number" id="sisi-input2" aria-placeholder="0" />
+        <label for="sisi-input3">Sisi 3</label>
+        <input type="number" id="sisi-input3" aria-placeholder="0" />
+      </section>
+
+      <section>
+        <button onclick="peringatankeliling()">Hitung</button>
+        <button onclick="resetkeliling()">Reset</button>
+      </section>
+      <h4>Hasil Keliling: <span id="hasil-Keliling">0</span></h4>
+    </main>
   </body>
+  <script src="./JS/script.js"></script>
 </html>
